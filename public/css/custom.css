@@ -1,0 +1,50 @@
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.container {
+    width:800px;
+}
+
+.navbar-brand {
+    margin-left:50px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 150px;
+    width: 200px;
+}
+
+a {
+  color:black;
+}
+ul.nav a:hover { background-color: #fff !important; }
+
+a:hover {
+    background-color:white;
+    color:black;
+}
+
+.expand {
+    -webkit-transition: all .25s cubic-bezier(0, 0, .58, 1);
+}
+.expand:hover {
+    font-family: 'Shadows Into Light Two', cursive;
+    -webkit-transform:scale(1.25)rotate(-20deg)
+}
+
+
+.menu {
+    margin-top:50px;
+    padding-right:15px;
+    font-size:25px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.logotext {
+    margin-left:-225px;
+    margin-top:10px;
+    float:left;
+    font-size:30px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
